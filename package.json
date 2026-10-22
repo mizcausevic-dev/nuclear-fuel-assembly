@@ -1,0 +1,16 @@
+{
+  "name": "nuclear-fuel-assembly",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Code-driven anatomy-style motion explainer of a nuclear fuel assembly. 34 seconds, 30 fps, 1,020 deterministic frames.",
+  "scripts": {
+    "dev": "vite --port 4319 --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 4319 --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  }
+}
